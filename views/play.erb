@@ -1,9 +1,11 @@
 <div>
-  <%= "Player 1: #{@player_1_name} Player 2: #{@player_2_name}" %>
+  Fighter 1: <%= @player_1_name %>
+<div>
+    Fighter 2:  <%= @player_2_name %>
   <div>
-  <%= "Hit points: #{@player_2_name}: 10 HP" %>
-</div>
+    <%= "Hit points: #{@player_2_name}: 10 HP" %>
+  </div>
 </div>
 <form action="/attack">
-  <input type="submit" value="Attack">
-  </form>
+  <input type="submit" style="font-size: larger; color: gold; background-color: black;" value=" Attack! ">
+</form>
